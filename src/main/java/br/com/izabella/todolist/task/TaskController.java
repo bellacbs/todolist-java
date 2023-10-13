@@ -33,12 +33,12 @@ public class TaskController {
 
         var currentDate = LocalDateTime.now();
 
-        if (currentDate.isAfter(taskModel.getStartAt()) || currentDate.isAfter(taskModel.getEndArt())) {
+        if (currentDate.isAfter(taskModel.getStartAt()) || currentDate.isAfter(taskModel.getEndAt())) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST)
                     .body("A data de início ou término deve ser maior do que a data atual.");
         }
 
-        if (taskModel.getStartAt().isAfter(taskModel.getEndArt())) {
+        if (taskModel.getStartAt().isAfter(taskModel.getEndAt())) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST)
                     .body("A data de início deve ser menor do que a data de término.");
         }
