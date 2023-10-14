@@ -4,6 +4,7 @@
   <a href="#sobre">Sobre</a> &#xa0; | &#xa0; 
   <a href="#funciona">O que funciona</a> &#xa0; | &#xa0;
   <a href="#pendente">Em desenvolvimento</a> &#xa0; | &#xa0;
+  <a href="#requisitos">Pré requisitos</a> &#xa0; | &#xa0;
 </p>
 
 <h2 id="sobre">:notebook: Sobre </h2>
@@ -35,6 +36,26 @@ As seguintes bibliotecas e linguagens foram usadas na construção do projeto:
 
 - [x] Acrescentar mais validações.
 - [x] Migrar de um banco de dados em memória para um banco de dados persistente.
+
+<h2 id="requisitos">:leftwards_arrow_with_hook: Pré-requisitos</h2>
+
+Caso deseje fazer as requisições utilizando a API criada no Render, ver <a href="https://documenter.getpostman.com/view/20822987/2s9YR57vNK"> documentação </a></br>
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Java-17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) e [Maven](https://maven.apache.org/download.cgi). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+<h4>:checkered_flag: Rodando o projeto </h4>
+
+```bash
+# Clone este repositório
+
+# Para iniciar o projeto
+$ mvn spring-boot:run
+
+# O servidor inciará na porta:8080 - acesse <http://localhost:8080>
+# incluir rotas, conforme documentação
+```
 
 
 <a href="#top">Voltar para o topo</a>
