@@ -25,6 +25,7 @@ As seguintes bibliotecas e linguagens foram usadas na construção do projeto:
 <h2 id="funciona">:heavy_check_mark: O que funciona</h2>
 
 * Cadastrar Usuário;</br>
+* Login de Usuário;</br>
 * Cadastrar tarefas;</br>
 * Editar Tarefa;</br>
 * Ver tarefas do próprio usuário;</br>
@@ -32,7 +33,8 @@ As seguintes bibliotecas e linguagens foram usadas na construção do projeto:
  
 <h2 id="pendente">:construction: Em desenvolvimento</h2>
 
-- [x] Login
+- [x] Acrescentar mais validações.
+- [x] Migrar de um banco de dados em memória para um banco de dados persistente.
 
 
 <a href="#top">Voltar para o topo</a>
